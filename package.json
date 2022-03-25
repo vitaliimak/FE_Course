@@ -2,18 +2,18 @@
   "name": "fe_course",
   "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "stylelint": "stylelint **/*.css"
+    "stylelint": "stylelint **/*.css",
+    "htmllint": "html-validate **/*.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vitaliimak/FE_Course.git"
   },
   "author": "Vitalii Makarchenkov <mail@vitaliimak.com> (https://vitaliimak.com/)",
-  "license": "MIT",
   "homepage": "https://github.com/vitaliimak/FE_Course",
   "private": true,
   "devDependencies": {
+    "html-validate": "6.6.1",
     "stylelint": "14.6.1",
     "stylelint-config-standard": "25.0.0"
   }
