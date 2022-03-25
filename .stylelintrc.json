@@ -1,0 +1,12 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "block-no-empty": true,
+    "no-extra-semicolons": [
+      true,
+      {
+        "severity": "warning"
+      }
+    ]
+  }
+}

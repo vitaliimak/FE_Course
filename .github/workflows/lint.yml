@@ -1,4 +1,4 @@
-name: html5validator
+name: lintAction
 
 # Controls when the workflow will run
 on:
@@ -15,15 +15,22 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  Lint:
+  LintAction:
     runs-on: ubuntu-latest
     steps:
 
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Checks HTML5
-      id: action
-      uses: Cyb3r-Jak3/html5validator-action@master
+    - name: Setup NodeJs
+      uses: actions/setup-node@v2
       with:
-        config: ./.github/html5validator_config.yml
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Lint Action
+      uses: wearerequired/lint-action@v1.12.0
+      with:
+        stylelint: true
