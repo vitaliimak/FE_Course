@@ -36,4 +36,4 @@ jobs:
         stylelint: true
 
     - name: Lint HTML5
-      run: npm run htmlvalidate
+      run: npm run htmllint
