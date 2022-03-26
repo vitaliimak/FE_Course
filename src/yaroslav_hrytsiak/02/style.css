@@ -1,0 +1,27 @@
+body{
+    background-color: #f5f7fa;
+    
+}
+.img1{
+  width: 1000px;
+}
+
+.img3{
+     
+    height: 300px;
+  }
+.video{
+    border: none;
+}
+.video,.img3{
+    display: inline-block;
+    width: 45%;
+}
+ 
+iframe{
+    width: 83%;
+    height: 300px;
+}
+p,ul{
+    width: 80%;
+}
