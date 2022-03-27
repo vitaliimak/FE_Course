@@ -21,7 +21,6 @@ body{
 .about-position{
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
     line-height: 17px;
     color: #000000;
     margin-bottom: 20px;
@@ -40,7 +39,6 @@ body{
 .about-description{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
     line-height: 24px;
     color: #595959;
     width: 400px;
@@ -54,7 +52,6 @@ body{
 }
 .title{font-style: normal;
     font-weight: bold;
-    font-size: 22px;
     line-height: 27px;
     color: #000000;
     margin-bottom: 10px;
@@ -67,14 +64,12 @@ body{
 .project-item{
     font-style: normal;
 font-weight: bold;
-font-size: 14px;
 line-height: 24px;
 color: #000000;
 }
 .project, .project-link{
     font-style: normal;
 font-weight: normal;
-font-size: 14px;
 line-height: 24px;
 color: #595959;
 }
@@ -84,7 +79,6 @@ color: #595959;
 .project-bracket{
     font-style: normal;
 font-weight: bold;
-font-size: 14px;
 line-height: 24px;
 color: #000000;
 
@@ -97,7 +91,6 @@ color: #000000;
 .work-position{
     font-style: normal;
 font-weight: bold;
-font-size: 16px;
 line-height: 20px;
 color: #000000;
 margin-bottom: 10px;
@@ -106,7 +99,6 @@ margin-bottom: 10px;
 .organization{
     font-style: normal;
 font-weight: bold;
-font-size: 16px;
 line-height: 20px;
 color: #FB6D3A;
 
@@ -114,7 +106,6 @@ color: #FB6D3A;
 .period{
     font-style: normal;
 font-weight: normal;
-font-size: 12px;
 line-height: 15px;
 color: #A8A8A8;
 margin-bottom: 10px;
@@ -122,7 +113,6 @@ margin-bottom: 10px;
 .line{
     font-style: normal;
 font-weight: normal;
-font-size: 12px;
 line-height: 15px;
 color: #000000;
 
@@ -134,7 +124,6 @@ color: #000000;
 .work-list-item{
     font-style: normal;
 font-weight: normal;
-font-size: 14px;
 line-height: 24px;
 color: #595959;
 }
@@ -147,7 +136,6 @@ color: #595959;
 .university{
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
     line-height: 20px;
     color: #FB6D3A;
     margin-bottom: 10px;
@@ -155,7 +143,6 @@ color: #595959;
 .managment{
     font-style: normal;
 font-weight: bold;
-font-size: 14px;
 line-height: 17px;
 color: #000000;
 margin-bottom: 10px;
@@ -165,7 +152,6 @@ margin-bottom: 10px;
 .period-education{
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
 }
@@ -199,7 +185,6 @@ margin-bottom: 10px;
    
 font-style: normal;
 font-weight: bold;
-font-size: 22px;
 line-height: 27px;
 margin-bottom: 10px;
 
@@ -207,7 +192,6 @@ margin-bottom: 10px;
 .contact-type{
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
     margin-right: 10px;
@@ -217,7 +201,6 @@ margin-bottom: 10px;
 .contact-link{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
     line-height: 24px;
     color: #FB6D3A;
 }
@@ -237,6 +220,20 @@ margin-bottom: 10px;
     color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
     line-height: 24px;
+}
+.tech-skills-text,.soft-skills-text,.project-bracket,.project, .project-link,.about-position,.work-list-item,.project-item{
+    font-size: 14px;
+}
+.contact-link,.contact-type,.managment,.about-description{
+    font-size: 14px;
+}
+.title,.sidebar-tittle{
+    font-size: 22px;
+}
+.work-position,.organization,.university{
+    font-size: 16px;
+}
+.period,.line,.period-education{
+    font-size: 12px;
 }
