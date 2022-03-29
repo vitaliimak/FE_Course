@@ -2,7 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: #f5f7fa;
 }
-.main{
+.main_{
     display:flex;
     flex-direction: row-reverse;
     
@@ -222,7 +222,7 @@ margin-bottom: 10px;
     font-weight: normal;
     line-height: 24px;
 }
-.tech-skills-text,.soft-skills-text,.project-bracket,.project, .project-link,.about-position,.work-list-item,.project-item{
+.tech-skills-text,.soft-skills-text,.project-bracket,.project, .project-link,.work-list-item,.project-item{
     font-size: 14px;
 }
 .contact-link,.contact-type,.managment,.about-description{

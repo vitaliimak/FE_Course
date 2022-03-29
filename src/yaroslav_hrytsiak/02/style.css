@@ -28,3 +28,10 @@ p,ul{
 .youtube{
     border: none;
 }
+h2, h3{
+    font-size: 21px;
+}
+
+h4{
+    font-size: 30px;
+}
