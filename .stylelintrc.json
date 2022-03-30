@@ -2,11 +2,19 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "block-no-empty": true,
-    "no-extra-semicolons": [
-      true,
-      {
-        "severity": "warning"
-      }
-    ]
+    "indentation": 4,
+    "no-eol-whitespace": [
+        true,
+        {
+            "severity": "warning"
+        }
+    ],
+    "max-line-length": [
+        120,
+        {
+            "severity": "warning"
+        }
+    ],
+    "no-extra-semicolons": true
   }
 }
