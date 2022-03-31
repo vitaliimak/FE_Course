@@ -11,40 +11,40 @@
     align-items: center;
     padding: 1rem 1.5rem;
   }
-  
+
   .nav-logo {
     font-size: 30px;
     font-weight: 500;
     color: azure;
     text-decoration: none;
   }
-  
+
 article{
     font-family: cursive;
     font-size: 25px;
 }
-  
+
   .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .nav-item {
     margin-left: 3rem;
      list-style-type: none;
   }
-  
+
   .nav-link{
     font-size: 19px;
   text-decoration: none;
     color: aliceblue;
-   
+
   }
-  
+
   .nav-link:hover{
     color: #1ae5f7;
-    
+
   }
 
 main{
@@ -67,9 +67,7 @@ input{
 }
 
 button{
-    font-size: 30px; 
-    position:absolute;
-    bottom: 0;
+    font-size: 30px;
     color: rgb(107, 17, 17);
     background-color: #1ae5f7;
 }
