@@ -5,7 +5,7 @@ body{
 .main_{
     display:flex;
     flex-direction: row-reverse;
-    
+
     width: 1200px;
     margin: 0 auto;
 }
@@ -31,7 +31,7 @@ body{
     font-weight: bold;
     font-size: 45px;
     line-height: 55px;
-    
+
     color: #000000;
     margin-bottom: 25px;
 
@@ -42,11 +42,11 @@ body{
     line-height: 24px;
     color: #595959;
     width: 400px;
-    
 
-} 
- 
-.Projects{ 
+
+}
+
+.Projects{
     margin-bottom: 50px;
 
 }
@@ -55,7 +55,7 @@ body{
     line-height: 27px;
     color: #000000;
     margin-bottom: 10px;
-   
+
 }
 .project-list{
     padding: 0;
@@ -84,9 +84,9 @@ color: #000000;
 
 }
 
-.work{ 
+.work{
     margin-bottom: 40px;
-    
+
 }
 .work-position{
     font-style: normal;
@@ -131,7 +131,7 @@ color: #595959;
 
 .education{
     margin-bottom: 194px;
-    
+
 }
 .university{
     font-style: normal;
@@ -182,7 +182,7 @@ margin-bottom: 10px;
 
 .sidebar-tittle{
     color: #fff;
-   
+
 font-style: normal;
 font-weight: bold;
 line-height: 27px;
@@ -237,3 +237,4 @@ margin-bottom: 10px;
 .period,.line,.period-education{
     font-size: 12px;
 }
+
