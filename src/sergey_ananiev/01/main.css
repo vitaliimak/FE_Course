@@ -1,28 +1,28 @@
 h1 {
 
-    text-align: center;
+text-align: center;
 
 }
 
 h2 {
 
-    text-align: center;
+text-align: center;
 
 }
 
 span {
 
-    font-size: large;
-    text-decoration: solid;
+font-size: large;
+text-decoration: solid;
 
 }
 
 img {
 
-    width: 140px;
-    height: 140px;
-    border-radius: 80px;
-    display: inline-block;
-    margin-left: 46%;
+width: 140px;
+height: 140px;
+border-radius: 80px;
+display: inline-block;
+margin-left: 46%;
 
 }
