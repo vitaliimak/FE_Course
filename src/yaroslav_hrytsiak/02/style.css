@@ -1,33 +1,33 @@
-body{
+body {
 background-color: #f5f7fa;
 }
-.img1{
+.img1 {
 width: 1000px;
 }
-.img3{
+.img3 {
 height: 300px;
   }
-.video{
+.video {
 border: none;
 }
-.video,.img3{
+.video,.img3 {
 display: inline-block;
 width: 45%;
 }
-iframe{
+iframe {
 width: 83%;
 height: 300px;
 }
-p,ul{
+p,ul {
 width: 80%;
 }
-.youtube{
+.youtube {
 border: none;
 }
-h2, h3{
+h2, h3 {
 font-size: 21px;
 }
-h4{
+h4 {
 font-size: 30px;
 }
 
