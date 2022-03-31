@@ -69,7 +69,8 @@ body {
     color: #000;
 }
 
-.project, .project-link {
+.project,
+.project-link {
     font-style: normal;
     font-weight: normal;
     line-height: 24px;
