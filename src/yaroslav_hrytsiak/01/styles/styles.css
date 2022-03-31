@@ -1,16 +1,18 @@
 body {
-font-family: 'Montserrat', sans-serif;
+font-family: "Montserrat", sans-serif;
 background-color: #f5f7fa;
 }
 .main_ {
-display:flex;
+
+display: flex;
 flex-direction: row-reverse;
 width: 1200px;
 margin: 0 auto;
 }
 .main_content {
+
 background-color: #fff;
-box-shadow: 6px 6px 20px rgba(0, 0, 0, 10%);
+box-shadow: rgb(0, 0, 0, 10%) 6px 6px 20px ;
 padding: 105px 90px;
 }
 .about {
@@ -136,8 +138,9 @@ line-height: 15px;
 color: #a8a8a8;
 }
 /* sidebar styles */
+
 .sidebar {
-background-color: #1e2939 ;
+background-color: #1e2939;
 padding-top: 40px;
 width: 370px;
 }
