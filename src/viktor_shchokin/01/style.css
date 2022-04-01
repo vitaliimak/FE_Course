@@ -9,7 +9,7 @@ p {
     margin: 0;
 }
 
-h1,h2 {
+h1, h2 {
     margin: 0;
 }
 
@@ -79,7 +79,6 @@ h1,h2 {
     height: 50px;
 }
 
-
 /* about */
 .about {
     margin-top: 100px;
@@ -89,8 +88,7 @@ h1,h2 {
     margin-top: 20px;
 }
 
-/*Skills*/
+/* Skills */
 .skills {
     margin-top: 100px;
 }
-
