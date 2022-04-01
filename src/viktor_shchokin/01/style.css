@@ -1,8 +1,7 @@
-/*General*/
-
+/* General */
 body {
     font-size: 20px;
-    font-family: 'Montserat', sans-serif;
+    font-family: Montserat, sans-serif;
     line-height: 30px;
 }
 
@@ -14,7 +13,6 @@ h1,h2 {
     margin: 0;
 }
 
-
 .container {
     width: 900px;
     height: 500px;
@@ -25,23 +23,20 @@ h1,h2 {
     text-align: center;
 }
 
-/*Card*/
+/* Card */
 .card {
     width: 900px;
     height: 500px;
-
     margin: auto;
     margin-top: 100px;
-    box-shadow:0px 7px 23px ;
+    box-shadow: 0px 7px 23px;
 }
 
 .card-top {
     height: 80%;
     background-color: #fff;
-
     display: flex;
 }
-
 
 .avatar-img {
     height: 100%;
@@ -55,10 +50,8 @@ h1,h2 {
     margin-bottom: 12px;
 }
 
-
 .subtitle {
     margin-bottom: 5px;
-
     color: #006ac7;
     font-size: 24px;
     font-weight: bold;
@@ -77,7 +70,6 @@ h1,h2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
     height: 20%;
     background-color: #006ac7;
 }
@@ -88,7 +80,7 @@ h1,h2 {
 }
 
 
-/*about*/
+/* about */
 .about {
     margin-top: 100px;
 }
@@ -96,7 +88,6 @@ h1,h2 {
 .about-text {
     margin-top: 20px;
 }
-
 
 /*Skills*/
 .skills {
