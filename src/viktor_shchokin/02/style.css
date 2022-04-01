@@ -1,0 +1,20 @@
+body {
+    font-size: 18px;
+    font-family: 'Verdana';
+    padding: 10px;
+}
+
+h1 {
+    font-size: 27px;
+    font-family: 'Microsoft Sans Serif';
+}
+
+h2 {
+    font-size: 25.5px;
+    font-family: 'Microsoft Sans Serif';
+}
+
+.img {
+    width: 500px;
+    
+}
