@@ -37,17 +37,17 @@ p {
     margin-bottom: 35px;
 }
 
-.main-header_nav {
+.main-header-nav {
     text-align: center;
 }
 
-.main-header_nav-link {
+.main-header-nav-link {
     margin-right: 45px;
     color: #828282;
     text-decoration: none;
 }
 
-.main-header_nav-link.active {
+.main-header-nav-link.active {
     color: #000;
 }
 
@@ -102,25 +102,25 @@ p {
     justify-content: space-between;
 }
 
-.skills-porgrams_info {
+.skills-porgrams-info {
     margin-bottom: 50px;
 }
 
-.skills-programs_item-title {
+.skills-programs-item-title {
     font-size: 14px;
     color: #828282;
     margin-top: 12px;
 }
 
-.skills-programs_item-rating {
+.skills-programs-item-rating {
     display: flex;
 }
 
-.skills-programs_item-star {
+.skills-programs-item-star {
     margin-right: 10px;
 }
 
-.skills-programs_item-star:nth-child(5) {
+.skills-programs-item-star:nth-child(5) {
     margin-right: 0px;
 }
 
@@ -167,7 +167,7 @@ p {
     margin-bottom: 37px;
 }
 
-.contacts_social-media {
+.contacts-social-media {
     display: flex;
     justify-content: space-between;
     width: 340px;
