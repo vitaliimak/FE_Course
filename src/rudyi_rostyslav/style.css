@@ -1,5 +1,4 @@
 header {
-
     min-height: 52.45px;
     background-color: white;
     margin-left: 252px;
@@ -19,13 +18,12 @@ a.home {
     color: black;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a.same {
     margin-right: 41px;
     text-decoration: none;
-    color: black;
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Open Sans', sans-serif;
@@ -48,7 +46,7 @@ h1.head {
 }
 
 h1.fb1 {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -79,7 +77,7 @@ p.p1 {
 
 .block3 {
     text-align: center;
-    background: #F6F6F6;
+    background: #f6f6f6;
     padding-bottom: 1%;
 }
 
@@ -100,10 +98,7 @@ p.p2 {
     font-weight: 200;
     font-size: 18px;
     line-height: 25px;
-    margin-left: 39%;
-    margin-right: 39%;
-    margin-top: 0;
-    margin-bottom: 3%;
+    margin: 0 39% 3% 39%;
 }
 
 footer {
@@ -115,7 +110,7 @@ footer {
 }
 
 h1.fb4 {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -127,12 +122,10 @@ h1.fb4 {
 button {
     background-color: black;
     color: white;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
     line-height: 25px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.1em;
     border: none;
