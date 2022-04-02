@@ -125,7 +125,6 @@ p {
 }
 
 /* Portfolio */
-
 .portfolio {
     background-color: #F6F6F6;
     text-align: center;
@@ -146,4 +145,36 @@ p {
 
 .portfolio-link {
     color: #000;
+}
+
+/* Contacts */
+.contacts {
+    text-align: center;
+}
+
+.contacts-subtitle {
+    font-weight: 400;
+    margin-bottom: 78px;
+}
+
+.contacts-button {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 50px;
+    margin-bottom: 37px;
+}
+
+.contacts_social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    margin: 0 auto;
+}
+
+.contacts-paragraph {
+    color: #828282;
+    margin-top: 44px;
 }
