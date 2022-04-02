@@ -1,18 +1,23 @@
 /* General */
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     line-height: 1.6;
 }
 
 *,
-*:after,
-*:before {
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -96,7 +101,7 @@ p {
     justify-content: space-between;
 }
 
-.skills-programs_item {
+.skills-programs-item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -121,7 +126,7 @@ p {
 }
 
 .skills-programs-item-star:nth-child(5) {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 /* Portfolio */
