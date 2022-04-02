@@ -67,9 +67,9 @@ p {
 
 /* About */
 .about {
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     text-align: center;
-    padding: 100px 0px;
+    padding: 100px 0;
 }
 
 .about-paragraph {
@@ -77,7 +77,7 @@ p {
 }
 
 .about-paragraph:nth-child(4) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 /* Skills */
@@ -120,15 +120,15 @@ p {
     margin-right: 10px;
 }
 
-.skills-programs_item-star:nth-child(5){
+.skills-programs_item-star:nth-child(5) {
     margin-right: 0px;
 }
 
 /* Portfolio */
 .portfolio {
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     text-align: center;
-    padding: 100px 0px;
+    padding: 100px 0;
 }
 
 .portfolio-block {
