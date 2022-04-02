@@ -2,7 +2,7 @@
     width: 100%;
     background-color: tomato;
     padding: 15px 0;
-            height: auto;
+    height: auto;
   }
 
   .navbar {
@@ -32,19 +32,17 @@ article{
 
   .nav-item {
     margin-left: 3rem;
-     list-style-type: none;
+    list-style-type: none;
   }
 
   .nav-link{
     font-size: 19px;
-  text-decoration: none;
+    text-decoration: none;
     color: aliceblue;
-
   }
 
   .nav-link:hover{
     color: #1ae5f7;
-
   }
 
 main{
@@ -76,7 +74,7 @@ footer{
     width: 100%;
     background-color: tomato;
     padding: 15px 0;
-            height: auto;
+    height: auto;
 }
 
 p{
