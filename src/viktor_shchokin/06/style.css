@@ -123,3 +123,27 @@ p {
 .skills-programs_item-star:nth-child(5){
     margin-right: 0px;
 }
+
+/* Portfolio */
+
+.portfolio {
+    background-color: #F6F6F6;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.portfolio-block {
+    margin-bottom: 95px;
+}
+
+.portfolio-block:nth-child(4) {
+    margin-bottom: 0;
+}
+
+.h2-title.portfolio-title {
+    margin-bottom: 62px;
+}
+
+.portfolio-link {
+    color: #000;
+}
