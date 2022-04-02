@@ -5,14 +5,14 @@
     height: auto;
 }
 
-  .navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
 }
 
-  .nav-logo {
+.nav-logo {
     font-size: 30px;
     font-weight: 500;
     color: azure;
@@ -24,24 +24,24 @@ article {
     font-size: 25px;
 }
 
-  .nav-menu {
+.nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-  .nav-item {
+.nav-item {
     margin-left: 3rem;
     list-style-type: none;
 }
 
-  .nav-link {
+.nav-link {
     font-size: 19px;
     text-decoration: none;
     color: aliceblue;
 }
 
-  .nav-link:hover {
+.nav-link:hover {
     color: #1ae5f7;
 }
 
