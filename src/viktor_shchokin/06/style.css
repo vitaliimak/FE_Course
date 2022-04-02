@@ -20,9 +20,14 @@ p {
     margin: 0;
 }
 
-.everything-container {
+.container {
     max-width: 940px;
     margin: 0 auto;
+}
+
+.h2-title {
+    margin-bottom: 28px;
+    font-size: 34px;
 }
 
 /* Header */
@@ -40,10 +45,81 @@ p {
     margin-right: 45px;
     color: #828282;
     text-decoration: none;
-
 }
 
 .main-header_nav-link.active {
     color: #000;
+}
 
+/* Main */
+.section {
+    padding-bottom: 100px;
+}
+
+.main-title {
+    font-size: 46px;
+    margin-bottom: 40px;
+}
+
+.main-img {
+    width: 100%;
+}
+
+/* About */
+.about {
+    background-color: #F6F6F6;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.about-paragraph {
+    margin-bottom: 60px;
+}
+
+.about-paragraph:nth-child(4) {
+    margin-bottom: 0px;
+}
+
+/* Skills */
+.skills {
+    text-align: center;
+}
+
+.skills-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 85px;
+}
+
+.skills-programs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-programs_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skills-porgrams_info {
+    margin-bottom: 50px;
+}
+
+.skills-programs_item-title {
+    font-size: 14px;
+    color: #828282;
+    margin-top: 12px;
+}
+
+.skills-programs_item-rating {
+    display: flex;
+}
+
+.skills-programs_item-star {
+    margin-right: 10px;
+}
+
+.skills-programs_item-star:nth-child(5){
+    margin-right: 0px;
 }
