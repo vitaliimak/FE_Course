@@ -18,7 +18,7 @@ a.home {
     color: black;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 a.same {
@@ -26,7 +26,7 @@ a.same {
     text-decoration: none;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #828282;
@@ -36,7 +36,7 @@ h1.head {
     font-weight: 700;
     font-size: 47.3392px;
     line-height: 64px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .block1 {
@@ -46,7 +46,7 @@ h1.head {
 }
 
 h1.fb1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -60,7 +60,7 @@ main {
 }
 
 p.p1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 18px;
@@ -82,7 +82,7 @@ p.p1 {
 }
 
 h1.fb3 {
-    font-family: 'Open Sans';
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -93,7 +93,7 @@ h1.fb3 {
 }
 
 p.p2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 18px;
@@ -110,7 +110,7 @@ footer {
 }
 
 h1.fb4 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -122,7 +122,7 @@ h1.fb4 {
 button {
     background-color: black;
     color: white;
-    font-family: 'Open Sans', 'sans-serif';
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 25px;
