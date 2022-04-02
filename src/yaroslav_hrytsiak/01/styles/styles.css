@@ -142,7 +142,7 @@ body {
     font-style: normal;
     font-weight: bold;
     line-height: 20px;
-    color: #fb6d3a;
+    color: #000;
     margin-bottom: 10px;
 }
 
@@ -150,7 +150,7 @@ body {
     font-style: normal;
     font-weight: bold;
     line-height: 17px;
-    color: #000;
+    color: #fb6d3a;
     margin-bottom: 10px;
 }
 

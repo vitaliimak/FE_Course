@@ -3,6 +3,31 @@
   "rules": {
     "block-no-empty": true,
     "indentation": 4,
+    "alpha-value-notation": "number",
+    "shorthand-property-no-redundant-values": [
+        true,
+        {
+            "severity": "warning"
+        }
+    ],
+    "color-function-notation": [
+        "modern",
+        {
+            "severity": "warning"
+        }
+    ],
+    "selector-list-comma-newline-after": [
+        "always",
+        {
+            "severity": "warning"
+        }
+    ],
+    "number-leading-zero": [
+        "always",
+        {
+            "severity": "warning"
+        }
+    ],
     "no-eol-whitespace": [
         true,
         {
