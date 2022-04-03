@@ -6,6 +6,7 @@
 .nav li {
     display: inline;
     margin-left: 14px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .nav a {
