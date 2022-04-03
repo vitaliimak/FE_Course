@@ -4,6 +4,7 @@
 
 * [Initial Setup](#initial-setup)
 * [NPM Setup](#npm-setup)
+* [Useful Tools](#useful-tools)
 
 ### Initial setup
 
@@ -35,3 +36,11 @@ src/
 2. Run **stylelint** command `npm run stylelint`
 3. Run automatic **stylelint** errors fix command `npm run stylelint:fix` (be carful to not fix alien code)
 3. Run **htmllint** command `npm run htmllint`
+
+### Useful Tools
+
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [Stylelint VSCode extention](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+- [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
+- [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
