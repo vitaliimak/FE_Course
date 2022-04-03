@@ -1,11 +1,11 @@
 body {
-    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-family: "Courier New", Courier, monospace, sans-serif;
     margin: 0;
     height: 100%;
-    background: url(img/fon.png);
+    background: url("img/fon.png");
 }
 
- .fon {
+.fon {
     width: 80%;
     height: 100%;
     background-color: antiquewhite;
@@ -15,7 +15,6 @@ body {
 .header {
     text-align: center;
     text-shadow: 2px 2px rgba(38, 235, 20, 0.24);
-
 }
 
 h2 {
