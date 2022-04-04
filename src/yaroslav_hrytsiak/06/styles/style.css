@@ -17,7 +17,7 @@ body {
   height: 52.45px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 22.99px;
+  margin-top: px;
   filter: drop-shadow(0 4px 4px hsl(0deg 0% 0% / 25%));
 }
 
@@ -174,14 +174,14 @@ h1 {
 .ae {
   width: 166.46px;
   height: 223.73px;
-  margin-left: 85px;
+  margin-left: 76px;
   margin-top: 78px;
 }
 
 .figma {
   width: 166.46px;
   height: 222.73px;
-  padding-left: 85px;
+  padding-left: 76px;
   padding-right: 0;
   margin-top: 70px;
 }
