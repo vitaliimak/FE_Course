@@ -1,4 +1,9 @@
 /* General */
+@font-face {
+    font-family: Gilory;
+    src: url(fonts/Gilroy-Medium.ttf);
+}
+
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -112,6 +117,7 @@ p {
 }
 
 .skills-programs-item-title {
+    font-family: Gilory;
     font-size: 14px;
     color: #828282;
     margin-top: 12px;
