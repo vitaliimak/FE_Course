@@ -30,6 +30,15 @@ p {
     margin: 0;
 }
 
+ul {
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+li {
+    display: inline;
+}
+
 .container {
     max-width: 940px;
     margin: 0 auto;
@@ -49,6 +58,10 @@ p {
 
 .main-header-nav {
     text-align: center;
+}
+
+.header-nav-list {
+    list-style-type: none;
 }
 
 .main-header-nav-link {
