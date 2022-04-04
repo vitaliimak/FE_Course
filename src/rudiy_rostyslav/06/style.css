@@ -45,7 +45,7 @@ h1.head {
     padding-bottom: 1%;
 }
 
-h1.fb1 {
+h2.fb1 {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -81,7 +81,7 @@ p.p1 {
     padding-bottom: 1%;
 }
 
-h1.fb3 {
+h2.fb3 {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -109,7 +109,7 @@ footer {
     text-align: center;
 }
 
-h1.fb4 {
+h2.fb4 {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -143,4 +143,44 @@ button {
     padding-left: 39%;
     padding-right: 39%;
     padding-bottom: 2%;
+}
+
+.svgblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.titleblock {
+    display: flex;
+    flex-direction: row;
+    color: #828282;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+}
+
+p.pp {
+    font-size: inherit;
+    padding-left: 13%;
+}
+
+.pi {
+    font-size: inherit;
+    padding-left: 11%;
+}
+
+.pa {
+    font-size: inherit;
+    padding-left: 11%;
+}
+
+.pf {
+    font-size: inherit;
+    padding-left: 12.25%;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
