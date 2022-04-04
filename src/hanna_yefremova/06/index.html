@@ -10,20 +10,23 @@
 
     <header>
         <div>
-            <div>Home</div>
-            <div>About me</div>
-            <div>Skills</div>
-            <div>Portfolio</div>
-            <div>Contacts</div>
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about_me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li>Contacts</li>
+            </ul>
         </div>
     </header>
 
+    <main>
     <section>
         <img src="images/first_screen.jpg" alt="Denis Novik photo">
     </section>
 
     <article>
-        <header><h1>About me</h1></header>
+        <header id="about_me"><h1>About me</h1></header>
         <p>Hi, I'm Denis – UX/UI designer from Minsk.
         I'm interested in design and everything connected with it.</p>
 
@@ -35,7 +38,7 @@
     </article>
 
     <section>
-        <header><h2>Skills</h2></header>
+        <header id="skills"><h2>Skills</h2></header>
         <p>I work in such programs as</p>
     </section>
 
@@ -105,24 +108,27 @@
         </div>
     </section>
 
-    <section>
+    <section id="portfolio">
         <header><h2>Portfolio</h2></header>
-        <img src="images/photo.jpg" alt="Picture of Online Fashion Store homepage">
-        <p>Online fashion store - Homepage</p>
-    </section>
 
-    <section>
-        <img src="images/reebok.jpg" alt="Picture of Reebok Store homepage">
-        <p>Reebok Store - Concept</p>
-    </section>
+        <section>
+            <img src="images/photo.jpg" alt="Picture of Online Fashion Store homepage">
+            <p>Online fashion store - Homepage</p>
+        </section>
 
-    <section>
-        <img src="images/braun.jpg" alt="Picture of Braun store homepage">
-        <p>Braun Landing Page - Concept</p>
+        <section>
+            <img src="images/reebok.jpg" alt="Picture of Reebok Store homepage">
+            <p>Reebok Store - Concept</p>
+        </section>
+
+        <section>
+            <img src="images/braun.jpg" alt="Picture of Braun store homepage">
+            <p>Braun Landing Page - Concept</p>
+        </section>
     </section>
+    </main>
 
     <footer>
-
         <div>
         <h2>Contacts</h2>
         <p>Want to know more or just chat?
@@ -144,7 +150,7 @@
             <p>Like me on
             LinkedIn, Instagram, Behance, Dribble</p>
         </div>
-
     </footer>
+    
 </body>
 </html>
