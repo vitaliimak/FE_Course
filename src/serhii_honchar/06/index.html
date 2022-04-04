@@ -12,113 +12,144 @@
 <body>
 
     <header id="header">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#header" class="headnav">Home</a>
-                </li>
-                <li>
-                    <a href="#about" class="headnav">About me</a>
-                </li>
-                <li>
-                    <a href="#skills" class="headnav">Skills</a>
-                </li>
-                <li>
-                    <a href="#portfolio" class="headnav">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contacts" class="headnav">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-        <hr>
-        <h1>Denis Novik</h1>
-        <img src="images/BSPP2266x940.jpeg" class="hero" alt="young man">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#header" class="headnav">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="headnav">About me</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="headnav">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="headnav">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contacts" class="headnav">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
     </header>
 
     <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Denis Novik</h1>
+                <img class="hero__image" src="images/BSPP2266x940.jpeg" alt="young man">
+            </div>
+        </section>
+
         <section class="rectangle_aboutme">
-            <h2 id="about">About me</h2>
-                <div class="mybio">
-                <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
-                    I'm interested in design and everything connected with it.</p>
-                    <br>
-                <p>I'm studying at courses "Web and mobile design <br>
-                    interfaces" in IT-Academy.</p>
-                    <br>
-                <p>Ready to implement excellent projects<br>
-                    with wonderful people.</p>
-                </div>
+            <div class="container">
+                <section class="mybio_textblock">
+                    <h2 id="about">About me</h2>
+                        <p class="mybio">Hi, I'm Denis – UX/UI designer from Minsk.<br>
+                            I'm interested in design and everything connected with it.</p>
+                        <p class="mybio">I'm studying at courses "Web and mobile design
+                            interfaces" in IT-Academy.</p>
+                        <p class="mybio">Ready to implement excellent projects<br>
+                            with wonderful people.</p>
+                </section>
+            </div>
         </section>
 
         <section class="skills">
-            <h2 id="skills">Skills</h2>
-                <p>I work in such programs as</p>
-                    <div class="flex_skills">
-                        <div class="program_skills">
-                            <img class ="img_logo" src="images/pslogo.svg" alt="photoshop logo">
-                            <small>Adobe <br>
-                                photoshop</small>
-                                <div class="skills_star-rating">
-                                    <img src="images/4stars.svg" alt="star img">
-                                </div>
-                        </div
-                        <div class="program_skills">
-                            <img class ="img_logo" src="images/ailogo.svg" alt="illustrator logo">
-                            <small>Adobe <br>
-                                Illustrator</small>
-                                <div class="skills_star-rating">
-                                    <img src="images/3stars.svg" alt="star img">
-                                </div>
-                        </div>
-                        <div class="program_skills">
-                            <img class ="img_logo"src="images/aelogo.svg" alt="effects logo">
-                            <small>Adobe <br>
-                                After Effects</small>
-                                <div class="skills_star-rating">
-                                    <img src="images/4stars.svg" alt="star img">
-                                </div>
-                        </div>
-                        <div class="program_skills">
-                            <img class ="img_logo" src="images/figmalogo.svg" alt="figma logo">
-                            <small>Figma</small>
-                            <div class="skills_star-rating">
-                                <img src="images/4stars.svg" alt="star img">
+            <div class="container">
+                <h2 id="skills">Skills</h2>
+                    <p>I work in such programs as</p>
+                        <div class="flex_skills">
+                            <div class="program_skills">
+                                    <img class="img_logo__photo" src="images/pslogo.svg" alt="photoshop logo">
+                                        <p class="img_logo__title">Adobe photoshop</p>
+                                            <div class="img_logo__star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/whitestar.svg" alt="white star">
+                                            </div>
+
+                            </div>
+                            <div class="program_skills">
+                                    <img class="img_logo__photo" src="images/ailogo.svg" alt="illustrator logo">
+                                        <p class="img_logo__title">Adobe Illustrator</p>
+                                            <div class="img_logo__star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/whitestar.svg" alt="white star">
+                                                <img src="images/whitestar.svg" alt="white star">
+                                            </div>
+                            </div>
+                            <div class="program_skills">
+                                    <img class="img_logo__photo" src="images/aelogo.svg" alt="effects logo">
+                                        <p class="img_logo__title">Adobe After Effects</p>
+                                            <div class="img_logo__star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/whitestar.svg" alt="white star">
+                                            </div>
+                            </div>
+                            <div class="program_skills">
+                                    <img class="img_logo__photo" src="images/figmalogo.svg" alt="figma logo">
+                                        <p class="img_logo__title">Figma</p>
+                                            <div class="figma_stars">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/blackstar.svg" alt="black star">
+                                                <img src="images/whitestar.svg" alt="white star">
+                                            </div>
                             </div>
                         </div>
-                </div>
+            </div>
         </section>
 
-        <section class="portfolio">
-            <h2 id="portfolio">Portfolio</h2>
-            <article>
-                <img src="images/levis.jpeg" alt="">
-                <a href="#!">Online fashion store - Homepage</a>
-            </article>
-            <article>
-                <img src="images/reebok_web.jpeg" alt="">
-                <a href="#!">Reebok Store - Concept</a>
-            </article>
-            <article>
-                <img src="images/braun_web.jpeg" alt="">
-                <a href="#!">Braun Landing Page - Concept</a>
-            </article>
+        <section class="portfolio_rectangle">
+            <div class="container">
+                <div class="container_portfolio">
+                    <h2 id="portfolio">Portfolio</h2>
+                        <article>
+                            <img class= "image_portfolio" src="images/levis.jpeg" alt="Online fashion store">
+                            <a class ="link_portfolio" href="#">Online fashion store - Homepage</a>
+                        </article>
+                        <article>
+                            <img class= "image_portfolio" src="images/reebok_web.jpeg" alt="Rebook concept store design">
+                            <a class ="link_portfolio" href="#">Reebok Store - Concept</a>
+                        </article>
+                        <article>
+                            <img class= "image_portfolio" src="images/braun_web.jpeg" alt="Braun portable macro camera">
+                            <a class ="link_portfolio" href="#">Braun Landing Page - Concept</a>
+                        </article>
+                </div>
+            </div>
         </section>
 
     </main>
-    <footer class="contacts">
-            <h2 id="contacts">Contacts</h2>
-            <p>Want to know more or just chat? You are welcome!</p>
-            <div><a href="#!"><button>Send message</button></a></div>
-            <div class="footer_links">
-                <a href="#!"><img src="images/linkedinlogo.svg" alt=""> </a>
-                <a href="#!"><img src="images/instalogo.svg" alt=""> </i></a>
-                <a href="#!"><img src="images/behancelogo.svg" alt=""> </a>
-                <a href="#!"><img src="images/dribblelogo.svg" alt=""> </a>
+    <footer>
+        <section class="contacts">
+            <div class="container">
+                <div class="container_contacts">
+                    <h2 id="contacts">Contacts</h2>
+                        <p class="text_contacts1" >Want to know more or just chat? You are welcome!</p>
+                        <a class="button_text" href="#">Send message</a>
+                        <div class="footer_links">
+                            <a class ="contacts_logolink" href="https://www.linkedin.com"><img src="images/linkedinlogo.svg" alt="Linkedin image logo"> </a>
+                            <a class ="contacts_logolink" href="https://www.instagram.com"><img src="images/instalogo.svg" alt="Instagram image logo"></a>
+                            <a class ="contacts_logolink" href="https://behance.com"><img src="images/behancelogo.svg" alt="Behance image logo"> </a>
+                            <a class ="contacts_logolink" href="https://dribble.com"><img src="images/dribblelogo.svg" alt="Dribble image logo"> </a>
+                        </div>
+                    <p class="text_contacts2">Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
+                </div>
             </div>
-            <small>Like me on <br>
-                LinkedIn, Instagram, Behance, Dribble
-            </small>
+        </section>
     </footer>
 
 </body>
