@@ -8,149 +8,140 @@
 </head>
 <body>
 
-    <header>
-        <div>
-            <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about_me">About me</a></li>
+    <header id="home">
+        <ul class="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li>Contacts</li>
-            </ul>
-        </div>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+        <div class="vector"></div>
     </header>
 
     <main>
-    <section>
-        <img src="images/first_screen.jpg" alt="Denis Novik photo">
-    </section>
-
-    <article>
-        <header id="about_me"><h1>About me</h1></header>
-        <p>Hi, I'm Denis – UX/UI designer from Minsk.
-        I'm interested in design and everything connected with it.</p>
-
-        <p>I'm studying at courses "Web and mobile design
-        interfaces" in IT-Academy.</p>
-
-        <p>Ready to implement excellent projects
-        with wonderful people.</p>
-    </article>
-
-    <section>
-        <header id="skills"><h2>Skills</h2></header>
-        <p>I work in such programs as</p>
-    </section>
-
-    <section>
-        <div>
-            <div>
-                <img src="images/photoshop.png" alt="Adobe Photoshop icon">
-            </div>
-            <div>
-                <img src="images/ai.png" alt="Adobe Illustrator icon">
-            </div>
-            <div>
-                <img src="images/ae.png" alt="Adobe After Effects icon">
-            </div>
-            <div>
-                <img src="images/figma.png" alt="Figma icon">
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <p>Adobe Photoshop</p>
-        </div>
-        <div>
-            <p>Adobe Illustrator</p>
-        </div>
-        <div>
-            <p>Adobe After Effects</p>
-        </div>
-        <div>
-            <p>Figma</p>
-        </div>
-    </section>
-
-    <section>
-
-        <div>
-            <div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/empty_star.png" alt="white star"></div>
-            </div>
-            <div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/empty_star.png" alt="white star"></div>
-                <div><img src="images/empty_star.png" alt="white star"></div>
-            </div>
-            <div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/empty_star.png" alt="white star"></div>
-            </div>
-            <div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/Star.png" alt="black star"></div>
-                <div><img src="images/empty_star.png" alt="white star"></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio">
-        <header><h2>Portfolio</h2></header>
-
         <section>
-            <img src="images/photo.jpg" alt="Picture of Online Fashion Store homepage">
-            <p>Online fashion store - Homepage</p>
+            <img src="images/first_screen.jpg" alt="Denis Novik photo">
         </section>
 
-        <section>
-            <img src="images/reebok.jpg" alt="Picture of Reebok Store homepage">
-            <p>Reebok Store - Concept</p>
+        <article class="box">
+            <h2 id="about">About me</h2>
+            <div class="rect">
+                <p>Hi, I'm Denis – UX/UI designer from Minsk.
+                I'm interested in design and everything connected with it.</p>
+                <br>
+                <p>I'm studying at courses "Web and mobile design
+                    interfaces" in IT-Academy.</p>
+                <br>
+                <p>Ready to implement excellent projects
+                    with wonderful people.</p>
+            </div>
+        </article>
+
+        <section class="skills_pad">
+            <h2 id="skills">Skills</h2>
+            <p>I work in such programs as</p>
+
+            <section class="skills_box">
+                <div>
+                    <ul class="skills_row">
+                    <li class="phs"><img src="images/photoshop.png" alt="Adobe Photoshop icon"></li>
+                    <li class="ai"><img src="images/ai.png" alt="Adobe Illustrator icon"></li>
+                    <li class="ae"><img src="images/ae.png" alt="Adobe After Effects icon"></li>
+                    <li class="figma"><img src="images/figma.png" alt="Figma icon"></li>
+                    </ul>
+                </div>
+
+                <div>
+                <ul class="text_row">
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe After Effects</li>
+                    <li>Figma</li>
+                </ul>
+                </div>
+
+                <div class="star_row">
+                    <div class="stars">
+                        <ul>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/empty_star.png" alt="white star"></li>
+                        </ul>
+                    </div>
+                    <div class="stars">
+                        <ul>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/empty_star.png" alt="white star"></li>
+                            <li><img src="images/empty_star.png" alt="white star"></li>
+                        </ul>
+                    </div>
+                    <div class="stars">
+                        <ul>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/empty_star.png" alt="white star"></li>
+                        </ul>
+                    </div>
+                    <div class="stars">
+                        <ul>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/Star.png" alt="black star"></li>
+                            <li><img src="images/empty_star.png" alt="white star"></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </section>
 
-        <section>
-            <img src="images/braun.jpg" alt="Picture of Braun store homepage">
-            <p>Braun Landing Page - Concept</p>
+        <section class="port">
+            <h2 id="portfolio">Portfolio</h2>
+
+            <figure>
+                <img src="images/photo.jpg" class="fashion" alt="Picture of Online Fashion Store homepage">
+                <figcaption class="cap-1">Online fashion store - Homepage</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/reebok.jpg" class="reebok" alt="Picture of Reebok Store homepage">
+                <figcaption class="cap-2">Reebok Store - Concept</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/braun.jpg" class="braun" alt="Picture of Braun store homepage">
+                <figcaption class="cap-3">Braun Landing Page - Concept</figcaption>
+            </figure>
         </section>
-    </section>
     </main>
 
     <footer>
-        <div>
-        <h2>Contacts</h2>
-        <p>Want to know more or just chat?
-        You are welcome!</p>
+        <h2 id="contacts">Contacts</h2>
+        <p>Want to know more or just chat?</p>>
+        <br>
+        <p>You are welcome!</p>
+
+        <button type="button">Send message</button>
+
+        <div class="icons">
+            <ul>
+                <li><img src="images/linkedin.png" alt="LinkedIn icon"></li>
+                <li><img src="images/insta.png" alt="Instagram icon"></li>
+                <li><img src="images/behance.png" alt="Behance icon"></li>
+                <li><img src="images/ball.png" alt="Bribble icon"></li>
+            </ul>
         </div>
 
-        <div>
-            <button type="button">Send message</button>
-        </div>
-
-        <div>
-            <div><img src="images/linkedin.png" alt="LinkedIn icon"></div>
-            <div><img src="images/insta.png" alt="Instagram icon"></div>
-            <div><img src="images/behance.png" alt="Behance icon"></div>
-            <div><img src="images/ball.png" alt="Bribble icon"></div>
-        </div>
-
-        <div>
-            <p>Like me on
-            LinkedIn, Instagram, Behance, Dribble</p>
-        </div>
+        <p class="final-text">Like me on
+        LinkedIn, Instagram, Behance, Dribble</p>
     </footer>
-    
+
 </body>
 </html>
