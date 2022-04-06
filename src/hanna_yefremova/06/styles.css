@@ -8,6 +8,14 @@ body {
     height: 4706px;
 }
 
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+}
+
 .navigation {
     display: flex;
     flex-direction: row;
@@ -118,11 +126,6 @@ body {
     position: relative;
     top: 29.47%;
     bottom: 70.02%;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: #070707;
 }
 
 .skills-box {
@@ -204,7 +207,7 @@ body {
     background: #f6f6f6;
 }
 
-.port h2 {
+#portfolio {
     position: absolute;
     width: 171px;
     height: 42.52px;
@@ -260,7 +263,7 @@ body {
     top: 2116.14px;
 }
 
-footer h2 {
+#contacts {
     margin-top: 100.67px;
     left: 43.67%;
     right: 43.94%;
@@ -279,11 +282,6 @@ footer p {
     top: 89.23%;
     bottom: 9.84%;
     margin-top: 44px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: #070707;
 }
 
 button {
