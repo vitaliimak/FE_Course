@@ -1,7 +1,3 @@
-* {
-    transition: all .1s ease-in;
-}
-
 body{
     margin: 0;
     background-color: #3b3f45;
@@ -139,20 +135,128 @@ input.checkedbox{
     position: relative; top: 0; left: 0;
 }
 
-.checkedbox:checked + label {
-    width: 1500px;
-    height: 1500px;
-    z-index: 1;
-    position: relative; top: 0; left: 0;
-    background-color: #2f00ff;
+.first {
+    background-color: #9c9c9c;
 }
 
-.divb {
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    z-index: 3;
+
+.list .first:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
 }
+
+.list .first::after {
+    content: '(for the next lessons about CSS)';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+    color: #4a4f56;
+    text-decoration: line-through;
+}
+
+.second {
+    background-color: #9c9c9c;
+}
+
+.list .second:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
+}
+
+.list .second::after {
+    content: '(for more CSS manipulations)';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+    color: #4a4f56;
+    text-decoration: line-through;
+}
+
+.third {
+    background-color: #9c9c9c;
+}
+
+.list .third:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
+}
+
+.list .third::after {
+    content: '(because they are awesome)';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+    color: #4a4f56;
+    text-decoration: line-through;
+}
+
+.fourth {
+    background-color: #9c9c9c;
+}
+
+.list .fourth:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
+}
+
+.list .fourth::after {
+    content: '(hm... they always dissapear)';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+    color: #4a4f56;
+    text-decoration: line-through;
+}
+
+.fifth {
+    background-color: #9c9c9c;
+}
+
+.list .fifth:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
+}
+
+.sixth {
+    background-color: #9c9c9c;
+}
+
+.list .sixth:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
+}
+
+.list .sixth::after {
+    content: '(for my friends)';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+    color: #4a4f56;
+    text-decoration: line-through;
+}
+
+
 
 
 
