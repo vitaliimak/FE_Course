@@ -1,0 +1,221 @@
+body {
+    background-color: #f5f7fa;
+}
+.background {
+    width: 793px;
+    height: 507px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: rgb(0 0 0 / 0.35) 0 5px 15px;   
+    background: #3b3f45;
+}
+header {
+    width: 793px;
+    height: 82px;
+    background: #4a4f56;
+}
+
+.head {
+    padding-left: 247px;
+    padding-right: 250px;
+    padding-top: 19px;
+    margin-bottom: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    text-align: center;
+    color: #ff8984;
+}
+
+li {
+    list-style: none;
+}
+
+.to-go {
+    margin-top: 4px;
+    padding-left: 316px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ff8984;
+}
+
+.tasks-list {
+    padding-top: 20px;
+    padding-left: 129px;
+}
+
+.tasks-list > ul {
+    margin: 0;
+    padding: 0;
+    width: 534px;
+    height: 45px;
+    background: #7a7593;
+}
+
+ul:nth-child(1),
+ul:nth-child(3),
+ul:nth-child(5) {
+    background: #88839e;
+}
+
+input {
+   display: none; 
+}
+
+label {
+    position: absolute;
+    padding-left: 47px;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    padding-right: 365px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    color: #fff;
+}
+
+span {
+    position: absolute;
+    padding-left: 3px;
+    padding-top: 1px;
+    width: 175px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    align-items: center;
+    color: #fff;
+}
+
+label::before {
+    position: absolute;
+    content: "";
+    left: 12px;
+    top: 11px;
+    display: block;
+    width: 19px;
+    height: 19px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+button {
+    position: absolute;
+    width: 534px;
+    height: 45px;
+    background: #4a4f56;
+    border: none;
+    margin-left: 129px;
+    margin-top: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    color: #ff8984;
+}
+
+.checkbox-input:checked ~ label {
+    text-decoration: line-through;
+}
+
+input:checked ~
+.text
+.text-apples
+.text-oranges
+.text-plates
+.text-friends {
+    text-decoration: line-through;
+}
+
+input:checked ~ label::before {
+    background-image: url("/images/vector.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.task:active {
+    background-color: rgb(199 126 121);
+}
+
+.text {
+    position: absolute;
+    padding-left: 169px;
+    padding-top: 11px;
+    width: 175px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.text-apples {
+    position: absolute;
+    padding-left: 130px;
+    padding-top: 11px;
+    width: 175px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.text-oranges {
+    position: absolute;
+    padding-left: 140px;
+    padding-top: 11px;
+    width: 175px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.text-plates {
+    position: absolute;
+    padding-left: 124px;
+    padding-top: 11px;
+    width: 175px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.text-friends {
+    position: absolute;
+    padding-left: 177px;
+    padding-top: 11px;
+    width: 175px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    align-items: center;
+}
+
+ul:hover {
+    border: 3px solid #fff;
+    background-color: #625e77;
+    height: 39px;
+    border-left: none;
+    border-right: none;
+    transition: ul .1s ease-in;
+}
