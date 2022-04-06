@@ -1,15 +1,17 @@
 body {
     background-color: #f5f7fa;
 }
+
 .background {
     width: 793px;
     height: 507px;
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    box-shadow: rgb(0 0 0 / 0.35) 0 5px 15px;   
+    font-family: "Open Sans", sans-serif;
+    font-family: Roboto, sans-serif;
+    box-shadow: rgb(0 0 0 / 0.35) 0 5px 15px;
     background: #3b3f45;
 }
+
 header {
     width: 793px;
     height: 82px;
@@ -64,15 +66,12 @@ ul:nth-child(5) {
 }
 
 input {
-   display: none; 
+    display: none;
 }
 
 label {
     position: absolute;
-    padding-left: 47px;
-    padding-top: 11px;
-    padding-bottom: 13px;
-    padding-right: 365px;
+    padding: 11px 365px 13px 47px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -127,17 +126,25 @@ button {
     text-decoration: line-through;
 }
 
-input:checked ~
-.text
-.text-apples
-.text-oranges
-.text-plates
 .text-friends {
+    position: absolute;
+    padding-left: 177px;
+    padding-top: 11px;
+    width: 175px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    align-items: center;
+}
+
+input:checked ~ .text .text-apples .text-oranges .text-plates .text-friends {
     text-decoration: line-through;
 }
 
 input:checked ~ label::before {
-    background-image: url("/images/vector.png");
+    background-image: url("/src/yaroslav_hrytsiak/08/images/vector.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -198,24 +205,11 @@ input:checked ~ label::before {
     align-items: center;
 }
 
-.text-friends {
-    position: absolute;
-    padding-left: 177px;
-    padding-top: 11px;
-    width: 175px;
-    height: 16px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 21px;
-    align-items: center;
-}
-
 ul:hover {
     border: 3px solid #fff;
     background-color: #625e77;
     height: 39px;
     border-left: none;
     border-right: none;
-    transition: ul .1s ease-in;
+    transition: ul 0.1s ease-in;
 }
