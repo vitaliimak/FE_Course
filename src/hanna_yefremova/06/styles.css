@@ -17,7 +17,7 @@ body {
     height: 52.45px;
     left: 252px;
     top: 22.99px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0 4px 4px rgb(0 0 0 / 0.25));
 }
 
 .navigation li {
@@ -30,7 +30,7 @@ body {
     line-height: 25px;
     text-decoration: none;
     color: #828282;
-    margin: 0 15px 40px 15px;
+    margin: 0 15px 40px;
 }
 
 .navigation a:hover {
@@ -64,7 +64,7 @@ body {
     width: 1445px;
     height: 517px;
     margin-top: 699px;
-    background: #F6F6F6;
+    background: #f6f6f6;
 }
 
 #about {
@@ -93,7 +93,7 @@ body {
     color: #070707;
 }
 
-.skills_pad {
+.skills-pad {
     width: 1445px;
     height: 580px;
 }
@@ -114,7 +114,7 @@ body {
     color: #070707;
 }
 
-.skills_pad p {
+.skills-pad p {
     position: relative;
     top: 29.47%;
     bottom: 70.02%;
@@ -125,7 +125,7 @@ body {
     color: #070707;
 }
 
-.skills_box {
+.skills-box {
     width: 936.59px;
     height: 396.14px;
     top: 15px;
@@ -133,7 +133,7 @@ body {
     position: relative;
 }
 
-.skills_row {
+.skills-row {
     position: relative;
     width: inherit;
     height: 89.07px;
@@ -144,12 +144,12 @@ body {
     justify-content: space-around;
 }
 
-.skills_row li {
+.skills-row li {
     list-style: none;
     position: relative;
 }
 
-.text_row {
+.text-row {
     position: relative;
     width: inherit;
     height: 87.43px;
@@ -160,17 +160,16 @@ body {
     justify-content: space-around;
 }
 
-.text_row li {
+.text-row li {
     list-style: none;
     position: relative;
     top: 18.85px;
-    font-family: 'Gilroy-Bold';
     font-size: 14px;
     line-height: 17px;
     color: #828282;
 }
 
-.star_row {
+.star-row {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -180,7 +179,7 @@ body {
     width: inherit;
 }
 
-.star_row li {
+.star-row li {
     list-style: none;
 }
 
@@ -191,7 +190,7 @@ body {
     flex-direction: row;
 }
 
-.star_row img {
+.star-row img {
     position: relative;
     width: 26.07px;
     height: 26px;
@@ -202,7 +201,7 @@ body {
     position: relative;
     width: 1445px;
     height: 2239px;
-    background: #F6F6F6;
+    background: #f6f6f6;
 }
 
 .port h2 {
@@ -256,6 +255,7 @@ body {
 .cap-2 {
     top: 1434.81px;
 }
+
 .cap-3 {
     top: 2116.14px;
 }
@@ -291,7 +291,7 @@ button {
     height: 42px;
     margin-left: 632.76px;
     margin-top: 78.14px;
-    color: #F6F6F6;
+    color: #f6f6f6;
     background-color: black;
     font-weight: bold;
     border-radius: 100px;
