@@ -63,7 +63,6 @@ header p {
 }
 
 .list-row {
-    position: relative;
     width: auto;
     height: 45px;
     background-color: #88839e;
@@ -86,28 +85,38 @@ header p {
     border-bottom: white 2px solid;
 }
 
-label:nth-child(odd) {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-}
-
-label {
+.check-box {
     color: white;
     font-weight: 400;
     font-size: 24px;
     line-height: 45px;
 }
 
-input[type=checkbox]:checked ~ label {
+label:nth-child(odd) {
+    position: relative;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    bottom: 3px;
+}
+
+.check-box::before {
+    content: url("images/unchecked.jpg");
+    margin-right: 10px;
+}
+
+.check-box:checked::before {
+    content: url("images/checked.jpg");
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked ~ label {
     text-decoration: line-through;
 }
 
-input {
-    width: 19px;
-    height: 19px;
-    margin-left: 12px;
-    top: 114px;
+input[type="checkbox"] {
+    visibility: hidden;
 }
 
 .footer-box {
