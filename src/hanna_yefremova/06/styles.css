@@ -6,8 +6,6 @@
 body {
     width: 1445px;
     height: 4706px;
-    font-family: "Open Sans";
-    font-style: normal;
 }
 
 .navigation {
@@ -27,8 +25,6 @@ body {
 }
 
 .navigation a {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -38,8 +34,6 @@ body {
 }
 
 .navigation a:hover {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -79,8 +73,6 @@ body {
     right: 43.39%;
     top: 16.98%;
     bottom: 82.12%;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 34px;
     line-height: 46px;
@@ -94,8 +86,6 @@ body {
     height: 246px;
     margin-left: 477.33px;
     margin-top: 171px;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -117,8 +107,6 @@ body {
     width: 124.52px;
     height: 25.75px;
     margin-bottom: 22.16px;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 34px;
     line-height: 46px;
@@ -130,8 +118,6 @@ body {
     position: relative;
     top: 29.47%;
     bottom: 70.02%;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -225,8 +211,6 @@ body {
     height: 42.52px;
     left: 637px;
     top: 118.76px;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 34px;
     line-height: 46px;
@@ -257,8 +241,6 @@ body {
     position: absolute;
     right: 40.47%;
     left: 584px;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -284,8 +266,6 @@ footer h2 {
     right: 43.94%;
     top: 87.88%;
     bottom: 11.22%;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 34px;
     line-height: 46px;
@@ -299,8 +279,6 @@ footer p {
     top: 89.23%;
     bottom: 9.84%;
     margin-top: 44px;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -338,8 +316,6 @@ button {
     right: 41.45%;
     top: 95.28%;
     bottom: 3.38%;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
