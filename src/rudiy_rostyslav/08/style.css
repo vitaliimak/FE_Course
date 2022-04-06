@@ -1,0 +1,162 @@
+* {
+    transition: all .1s ease-in;
+}
+
+body{
+    margin: 0;
+    background-color: #3b3f45;
+}
+.header{
+    height: 15em;
+    background-color: #4a4f56;
+    text-align: center;
+  }
+
+
+main {
+padding: 2% 27% 3%;
+}
+
+.header h1{
+    margin-top: 0;
+    padding-top: 3%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 28px;
+    color: #FF8984;
+
+}
+
+.header h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 19px;
+    color: #FF8984;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+.list .list-item:nth-child(odd) {
+    background-color: #88839e;
+}
+
+.list .list-item:nth-child(even) {
+    background-color: #625e77;
+    }
+
+input.checkedbox{
+    width: 35px;
+    height: 35px;
+    margin: 30px;
+}
+
+.checkedbox + label{
+    font-size: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.list .list-item:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.list .list-item:active {
+    background: #FF8984;
+}
+
+.list .list-item:first-child::after {
+    content: '(for the next lessons about CSS)';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+}
+
+.list .list-item:nth-child(2)::after {
+    content: '(for more CSS manipulations)';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+}
+
+.list .list-item:nth-child(3)::after {
+    content: '(because they are awesome)';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+}
+
+.list .list-item:nth-child(4)::after {
+    content: '(hm... they always dissapear)';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+}
+
+.list .list-item:last-child::after {
+    content: '(for my friends)';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+}
+
+.checkedbox:checked + .lab{
+    text-decoration: line-through;
+}
+
+.list-item .checkedbox:checked {
+    background-color: #fff;
+}
+
+.checkedbox + label {
+    width: 1500px;
+    height: 1500px;
+    position: relative; top: 0; left: 0;
+}
+
+.checkedbox:checked + label {
+    width: 1500px;
+    height: 1500px;
+    z-index: 1;
+    position: relative; top: 0; left: 0;
+    background-color: #2f00ff;
+}
+
+.divb {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    z-index: 3;
+}
+
+
+
+
+
+
+
