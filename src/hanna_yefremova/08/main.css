@@ -1,4 +1,84 @@
 * {
     transition: all .1s ease-in;
+    margin: 0;
+    padding: 0;
 }
 
+.page {
+    position: relative;
+    width: 793px;
+    height: 507px;
+    background-color: #3b3f45;
+}
+
+header {
+    position: absolute;
+    width: 793px;
+    height: 82px;
+    left: 0;
+    top: 0;
+    background-color: #4a4f56;
+}
+
+h1 {
+    position: absolute;
+    width: 276px;
+    height: 28px;
+    left: 247px;
+    top: 19px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    position: absolute;
+    width: 139px;
+    height: 19px;
+    left: 316px;
+    top: 51px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    position: absolute;
+    width: 107px;
+    height: 21px;
+    left: 333px;
+    top: 429px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+header h1, p {
+    color: #ff8984;
+}
+
+.list {
+    width: 524px;
+    height: 225px;
+    top: 102px;
+    left: 129px;
+    position: absolute;
+}
+.list div {
+    height: 45px;
+    border: 1px solid red;
+}
+
+/* .list:nth-child(odd) {
+    background-color: #88839e;
+}
+
+.list:nth-child(even) {
+    background-attachment: #7a7593;
+} */
