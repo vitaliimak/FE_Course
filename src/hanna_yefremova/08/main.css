@@ -9,6 +9,7 @@
     width: 793px;
     height: 507px;
     background-color: #3b3f45;
+    margin: auto;
 }
 
 header {
@@ -18,6 +19,10 @@ header {
     left: 0;
     top: 0;
     background-color: #4a4f56;
+}
+
+h1, p {
+    color:#ff8984;
 }
 
 h1 {
@@ -33,7 +38,7 @@ h1 {
     align-items: center;
 }
 
-p {
+header p {
     position: absolute;
     width: 139px;
     height: 19px;
@@ -46,39 +51,85 @@ p {
     align-items: center;
 }
 
-.footer-text {
-    position: absolute;
-    width: 107px;
-    height: 21px;
-    left: 333px;
-    top: 429px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-}
-
-header h1, p {
-    color: #ff8984;
-}
-
 .list {
-    width: 524px;
-    height: 225px;
-    top: 102px;
-    left: 129px;
     position: absolute;
-}
-.list div {
-    height: 45px;
-    border: 1px solid red;
+    width: 534px;
+    height: 225px;
+    left: 129px;
+    top: 102px;
+    display: flex;
+    flex-direction: column;
 }
 
-/* .list:nth-child(odd) {
+.list-row {
+    position: relative;
+    width: auto;
+    height: 45px;
     background-color: #88839e;
 }
 
-.list:nth-child(even) {
-    background-attachment: #7a7593;
-} */
+.list-row:nth-child(even) {
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #7a7593;
+}
+
+.list-row:hover {
+    background-color: #625e77;
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+}
+
+.list-row:active {
+    background-color: #d3841e;
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+}
+
+input[type=checkbox]:checked ~ label {
+    text-decoration: line-through;
+}
+
+label {
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+}
+
+label:nth-child(odd) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+input {
+    width: 19px;
+    height: 19px;
+    margin-left: 12px;
+    top: 114px;
+}
+
+.footer-box {
+    position: absolute;
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 417px;
+    background-color: #4a4f56;
+}
+
+.footer-box p {
+    position: relative;
+    width: 107px;
+    height: 21px;
+    top: 12px;
+    left: 204px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    z-index: 54;
+}
+
+.footer-box p::after {
+    content: " :)";
+}
