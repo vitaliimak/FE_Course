@@ -21,8 +21,9 @@ header {
     background-color: #4a4f56;
 }
 
-h1, p {
-    color:#ff8984;
+h1,
+p {
+    color: #ff8984;
 }
 
 h1 {
@@ -85,8 +86,10 @@ header p {
     border-bottom: white 2px solid;
 }
 
-input[type=checkbox]:checked ~ label {
-    text-decoration: line-through;
+label:nth-child(odd) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 label {
@@ -96,10 +99,8 @@ label {
     line-height: 45px;
 }
 
-label:nth-child(odd) {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
+input[type=checkbox]:checked ~ label {
+    text-decoration: line-through;
 }
 
 input {
