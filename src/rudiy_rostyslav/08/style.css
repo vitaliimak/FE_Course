@@ -137,6 +137,7 @@ input.checkedbox{
 
 .first {
     background-color: #9c9c9c;
+    color: #4a4f56;
 }
 
 
@@ -160,6 +161,7 @@ input.checkedbox{
 
 .second {
     background-color: #9c9c9c;
+    color: #4a4f56;
 }
 
 .list .second:hover {
@@ -182,6 +184,7 @@ input.checkedbox{
 
 .third {
     background-color: #9c9c9c;
+    color: #4a4f56;
 }
 
 .list .third:hover {
@@ -204,6 +207,7 @@ input.checkedbox{
 
 .fourth {
     background-color: #9c9c9c;
+    color: #4a4f56;
 }
 
 .list .fourth:hover {
@@ -226,6 +230,7 @@ input.checkedbox{
 
 .fifth {
     background-color: #9c9c9c;
+    color: #4a4f56;
 }
 
 .list .fifth:hover {
@@ -236,6 +241,7 @@ input.checkedbox{
 
 .sixth {
     background-color: #9c9c9c;
+    color: #4a4f56;
 }
 
 .list .sixth:hover {
@@ -256,11 +262,22 @@ input.checkedbox{
     text-decoration: line-through;
 }
 
+footer {
+    background: #4a4f56;
+    min-height: 100px;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    margin: 0 27%;
+}
 
-
-
-
-
-
-
-
+footer > h2 {
+    text-align: center;
+    color: #ff8984;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 21px;
+    padding-top: 4%;
+}
