@@ -1,0 +1,145 @@
+* {
+    transition: all .1s ease-in;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    position: relative;
+    width: 793px;
+    height: 507px;
+    background-color: #3b3f45;
+    margin: auto;
+}
+
+header {
+    position: absolute;
+    width: 793px;
+    height: 82px;
+    left: 0;
+    top: 0;
+    background-color: #4a4f56;
+}
+
+h1,
+p {
+    color: #ff8984;
+}
+
+h1 {
+    position: absolute;
+    width: 276px;
+    height: 28px;
+    left: 247px;
+    top: 19px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    position: absolute;
+    width: 139px;
+    height: 19px;
+    left: 316px;
+    top: 51px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    position: absolute;
+    width: 534px;
+    height: 225px;
+    left: 129px;
+    top: 102px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-row {
+    width: auto;
+    height: 45px;
+    background-color: #88839e;
+}
+
+.list-row:nth-child(even) {
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #7a7593;
+}
+
+.list-row:hover {
+    background-color: #625e77;
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+}
+
+.list-row:active {
+    background-color: #d3841e;
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+}
+
+.check-box {
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+}
+
+label:nth-child(odd) {
+    position: relative;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    bottom: 3px;
+}
+
+.check-box::before {
+    content: url("images/unchecked.jpg");
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked + .check-box::before {
+    content: url("images/checked.jpg");
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked ~ label {
+    text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+    visibility: hidden;
+}
+
+.footer-box {
+    position: absolute;
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 417px;
+    background-color: #4a4f56;
+}
+
+.footer-box p {
+    position: relative;
+    width: 107px;
+    height: 21px;
+    top: 12px;
+    left: 204px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    z-index: 54;
+}
+
+.footer-box p::after {
+    content: " :)";
+}
