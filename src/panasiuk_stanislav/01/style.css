@@ -9,47 +9,47 @@ body {
     width: 80%;
     height: 100%;
     background-color: antiquewhite;
-    margin: 0% 10%;
+    margin: 0% 10% 0% 10%;
 }
 
 .header {
     text-align: center;
-    text-shadow: 2px 2px rgb(38 235 20 / 0.24);
+    text-shadow: 2px 2px rgba(38, 235, 20, 0.24);
 }
 
 h2 {
     text-align: center;
-    text-shadow: 2px 2px rgb(38 235 20 / 0.24);
+    text-shadow: 2px 2px rgba(38, 235, 20, 0.24);
 }
 
 .foto {
     width: 400px;
-    box-shadow: 3px 3px 3px 3px rgb(59 148 250 / 0.404);
+    box-shadow: 3px 3px 3px 3px rgba(59, 148, 250, 0.404);
 }
 
 .conteiner {
     flex: 50% 50%;
-    text-shadow: 1px 1px rgb(0 0 0 / 0.815);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.815);
     width: top;
     text-align: center;
 }
 
 .education {
-    text-shadow: 1px 1px rgb(0 0 0 / 0.815);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.815);
     text-align: center;
 }
 
 .experience {
-    text-shadow: 1px 1px rgb(0 0 0 / 0.815);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.815);
     text-align: center;
 }
 
 .achieving {
-    text-shadow: 1px 1px rgb(0 0 0 / 0.815);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.815);
     text-align: center;
 }
 
 .hobby {
-    text-shadow: 1px 1px rgb(0 0 0 / 0.815);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.815);
     text-align: center;
 }
