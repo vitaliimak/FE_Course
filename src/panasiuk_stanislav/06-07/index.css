@@ -29,7 +29,12 @@ menu {
   padding-bottom: 20px;
   padding-left: 250px;
   padding-right: 250px;
-  max-width: 940px
+  max-width: 940px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 a{
@@ -43,6 +48,23 @@ a{
 
 h1{
   text-align: left;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47.3392px;
+  line-height: 64px;
+}
+
+h2,
+h3,
+h4,
+h5{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
 }
 
 .Denis{
@@ -56,15 +78,23 @@ li{
 
 #about{
   margin: 0 auto;
+  width: 940px;
   background: #F6F6F6;
   padding-top: 100px;
   padding-bottom: 100px;
+
 }
 
 .text_about{
   width: 480px;
   height: 250px;
   margin: inherit;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
 }
 
 h3{
@@ -80,15 +110,40 @@ h3{
   text-align: center;
 }
 
+#skills_conteiner{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
 .box_skill{
   width: 165px;
   height: 220px;
+  font-family: 'Gilroy-Bold';
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
 }
 
 #portfolio{
   background-color: #F6F6F6;
   margin-left: 250px;
   margin-right: 250px;
+}
+
+#portfolio p{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 0;
 }
 
 button{
@@ -99,4 +154,38 @@ button{
   background: #070707;
   border-radius: 12px;
   color: #F6F6F6;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+h5 {
+  padding-top: 100px;
+}
+.mesengers{
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+h5 ~ p{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.mesengers ~ p{
+  padding-bottom: 160px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #828282;
 }
