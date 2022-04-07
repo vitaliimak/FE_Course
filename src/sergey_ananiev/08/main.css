@@ -1,0 +1,307 @@
+* {
+    transition: all 0.1s ease-in;
+    font-family: "Roboto Light", monospace;
+}
+
+:root {
+    --color-body: #3b3f45;
+    --color-header: #4a4f56;
+    --color-light-purp: #88839e;
+    --color-dark-purp: #7a7593;
+    --color-font: #ff8984;
+    --color-hover-purp: #625e77;
+    --color-white: white;
+}
+
+body {
+    background-color: var(--color-body);
+    margin: 0;
+}
+
+.header {
+    background-color: var(--color-header);
+    height: 100px;
+    text-align: center;
+    color: var(--color-font);
+}
+
+.header h1 {
+    margin: 0;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.header h2 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-div {
+    width: 1300px;
+    height: 480px;
+    margin: 80px auto 0;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--color-white);
+}
+
+.div-1 {
+    background-color: var(--color-light-purp);
+    margin: 0;
+    height: 80px;
+}
+
+.div-1:hover {
+    background-color: var(--color-hover-purp);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.div-1:active {
+    background-color: orangered;
+}
+
+.div-1 label,
+.div-2 label,
+.div-3 label,
+.div-4 label,
+.div-5 label,
+.div-6 label {
+    cursor: pointer;
+}
+
+.div-1 [type]:checked + label,
+.div-2 [type]:checked + label,
+.div-3 [type]:checked + label,
+.div-4 [type]:checked + label,
+.div-5 [type]:checked + label,
+.div-6 [type]:checked + label {
+    text-decoration: line-through;
+}
+
+.div-1-checkbox {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.div-1-checkbox input {
+    display: inline-block;
+    transform: scale(1.8);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.div-1-checkbox span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.div-2 {
+    background-color: var(--color-dark-purp);
+    margin: 0;
+    height: 80px;
+}
+
+.div-2:hover {
+    background-color: var(--color-hover-purp);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.div-2:active {
+    background-color: orangered;
+}
+
+.div-2-checkbox {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.div-2 p {
+    margin: 0;
+    display: inline-block;
+}
+
+.div-2-checkbox input {
+    display: inline-block;
+    transform: scale(1.7);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.div-2-checkbox span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.div-3 {
+    background-color: var(--color-light-purp);
+    margin: 0;
+    height: 80px;
+}
+
+.div-3:hover {
+    background-color: var(--color-hover-purp);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.div-3:active {
+    background-color: orangered;
+}
+
+.div-3-checkbox {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.div-3 p {
+    margin: 0;
+    display: inline-block;
+}
+
+.div-3-checkbox input {
+    display: inline-block;
+    transform: scale(1.7);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.div-3-checkbox span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.div-4 {
+    background-color: var(--color-dark-purp);
+    margin: 0;
+    height: 80px;
+}
+
+.div-4:hover {
+    background-color: var(--color-hover-purp);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.div-4:active {
+    background-color: orangered;
+}
+
+.div-4-checkbox {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.div-4 p {
+    margin: 0;
+    display: inline-block;
+}
+
+.div-4-checkbox input {
+    display: inline-block;
+    transform: scale(1.7);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.div-4-checkbox span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.div-5 {
+    background-color: var(--color-light-purp);
+    margin: 0;
+    height: 80px;
+}
+
+.div-5:hover {
+    background-color: var(--color-hover-purp);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.div-5:active {
+    background-color: orangered;
+}
+
+.div-5-checkbox {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.div-5 p {
+    margin: 0;
+    display: inline-block;
+}
+
+.div-5-checkbox input {
+    display: inline-block;
+    transform: scale(1.7);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.div-6 {
+    background-color: var(--color-dark-purp);
+    margin: 0;
+    height: 80px;
+}
+
+.div-6:hover {
+    background-color: var(--color-hover-purp);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.div-6:active {
+    background-color: orangered;
+}
+
+.div-6-checkbox {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.div-6 p {
+    margin: 0;
+    display: inline-block;
+}
+
+.div-6-checkbox input {
+    display: inline-block;
+    transform: scale(1.7);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.div-6-checkbox span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: var(--color-header);
+    height: 70px;
+    width: 1300px;
+    margin: 50px auto;
+}
+
+.footer h2 {
+    margin: 0 auto;
+    padding-top: 21px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--color-font);
+}
