@@ -106,7 +106,7 @@ label:nth-child(odd) {
     margin-right: 10px;
 }
 
-.check-box:checked::before {
+input[type="checkbox"]:checked + .check-box::before {
     content: url("images/checked.jpg");
     margin-right: 10px;
 }
