@@ -10,7 +10,18 @@ body {
 }
 
 main {
-padding: 2% 27% 3%;
+    padding: 2% 27% 3%;
+}
+
+footer > h2 {
+    text-align: center;
+    color: #ff8984;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 21px;
+    padding-top: 4%;
 }
 
 .header h1 {
@@ -45,7 +56,7 @@ ul {
 
 .list .list-item:nth-child(even) {
     background-color: #625e77;
-    }
+}
 
 input.checkedbox {
     width: 35px;
@@ -260,15 +271,4 @@ footer {
     padding: 0;
     box-sizing: content-box;
     margin: 0 27%;
-}
-
-footer > h2 {
-    text-align: center;
-    color: #ff8984;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 21px;
-    padding-top: 4%;
 }
