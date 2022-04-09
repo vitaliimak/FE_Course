@@ -2,12 +2,12 @@ body {
     margin: 0;
     background-color: #3b3f45;
 }
+
 .header {
     height: 15em;
     background-color: #4a4f56;
     text-align: center;
-  }
-
+}
 
 main {
 padding: 2% 27% 3%;
@@ -67,11 +67,11 @@ input.checkedbox {
 }
 
 .list .list-item:active {
-    background: #FF8984;
+    background: #ff8984;
 }
 
 .list .list-item:first-child::after {
-    content: '(for the next lessons about CSS)';
+    content: "(for the next lessons about CSS)";
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -81,7 +81,7 @@ input.checkedbox {
 }
 
 .list .list-item:nth-child(2)::after {
-    content: '(for more CSS manipulations)';
+    content: "(for more CSS manipulations)";
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -91,7 +91,7 @@ input.checkedbox {
 }
 
 .list .list-item:nth-child(3)::after {
-    content: '(because they are awesome)';
+    content: "(because they are awesome)";
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -101,7 +101,7 @@ input.checkedbox {
 }
 
 .list .list-item:nth-child(4)::after {
-    content: '(hm... they always dissapear)';
+    content: "(hm... they always dissapear)";
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -111,7 +111,7 @@ input.checkedbox {
 }
 
 .list .list-item:last-child::after {
-    content: '(for my friends)';
+    content: "(for my friends)";
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -128,19 +128,10 @@ input.checkedbox {
     background-color: #fff;
 }
 
-.checkedbox + label {
-    width: 1500px;
-    height: 1500px;
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
 .first {
     background-color: #9c9c9c;
     color: #4a4f56;
 }
-
 
 .list .first:hover {
     border-top: 5px solid #fff;
@@ -149,7 +140,7 @@ input.checkedbox {
 }
 
 .list .first::after {
-    content: '(for the next lessons about CSS)';
+    content: "(for the next lessons about CSS)";
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -172,7 +163,7 @@ input.checkedbox {
 }
 
 .list .second::after {
-    content: '(for more CSS manipulations)';
+    content: "(for more CSS manipulations)";
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -195,7 +186,7 @@ input.checkedbox {
 }
 
 .list .third::after {
-    content: '(because they are awesome)';
+    content: "(because they are awesome)";
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -218,7 +209,7 @@ input.checkedbox {
 }
 
 .list .fourth::after {
-    content: '(hm... they always dissapear)';
+    content: "(hm... they always dissapear)";
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -252,7 +243,7 @@ input.checkedbox {
 }
 
 .list .sixth::after {
-    content: '(for my friends)';
+    content: "(for my friends)";
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
