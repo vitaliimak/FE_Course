@@ -1,8 +1,8 @@
-body{
+body {
     margin: 0;
     background-color: #3b3f45;
 }
-.header{
+.header {
     height: 15em;
     background-color: #4a4f56;
     text-align: center;
@@ -13,7 +13,7 @@ main {
 padding: 2% 27% 3%;
 }
 
-.header h1{
+.header h1 {
     margin-top: 0;
     padding-top: 3%;
     font-family: 'Roboto';
@@ -21,20 +21,19 @@ padding: 2% 27% 3%;
     font-weight: 700;
     font-size: 3.5rem;
     line-height: 28px;
-    color: #FF8984;
-
+    color: #ff8984;
 }
 
-.header h2{
+.header h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 2rem;
     line-height: 19px;
-    color: #FF8984;
+    color: #ff8984;
 }
 
-ul{
+ul {
     list-style-type: none;
     font-size: 30px;
     color: #fff;
@@ -48,13 +47,13 @@ ul{
     background-color: #625e77;
     }
 
-input.checkedbox{
+input.checkedbox {
     width: 35px;
     height: 35px;
     margin: 30px;
 }
 
-.checkedbox + label{
+.checkedbox + label {
     font-size: 35px;
     font-family: 'Roboto';
     font-style: normal;
@@ -121,7 +120,7 @@ input.checkedbox{
     margin-left: 1.5%;
 }
 
-.checkedbox:checked + .lab{
+.checkedbox:checked + .lab {
     text-decoration: line-through;
 }
 
@@ -132,7 +131,9 @@ input.checkedbox{
 .checkedbox + label {
     width: 1500px;
     height: 1500px;
-    position: relative; top: 0; left: 0;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .first {
@@ -265,7 +266,6 @@ input.checkedbox{
 footer {
     background: #4a4f56;
     min-height: 100px;
-    margin: 0;
     padding: 0;
     box-sizing: content-box;
     margin: 0 27%;
