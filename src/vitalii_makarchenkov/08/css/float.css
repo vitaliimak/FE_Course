@@ -1,0 +1,12 @@
+/* .wrapper {
+    display: none;
+} */
+
+.wrapper-float {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.wrapper-float > .wrapper-float-item {
+    display: inline-block;
+}

@@ -1,0 +1,11 @@
+@import url("./inline.css");
+@import url("./float.css");
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+img {
+    width: 150px;
+}
