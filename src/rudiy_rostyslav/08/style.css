@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    background-color: #3b3f45;
+}
+
+.header {
+    height: 15em;
+    background-color: #4a4f56;
+    text-align: center;
+}
+
+main {
+    padding: 2% 27% 3%;
+}
+
+footer > h2 {
+    text-align: center;
+    color: #ff8984;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 21px;
+    padding-top: 4%;
+}
+
+.header h1 {
+    margin-top: 0;
+    padding-top: 3%;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 28px;
+    color: #ff8984;
+}
+
+.header h2 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 19px;
+    color: #ff8984;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+.list .list-item:nth-child(odd) {
+    background-color: #88839e;
+}
+
+.list .list-item:nth-child(even) {
+    background-color: #625e77;
+}
+
+input.checkedbox {
+    width: 35px;
+    height: 35px;
+    margin: 30px;
+}
+
+.checkedbox + label {
+    font-size: 35px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.list .list-item:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.list .list-item:active {
+    background: #ff8984;
+}
+
+.list .list-item:first-child::after {
+    content: "(for the next lessons about CSS)";
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+}
+
+.list .list-item:nth-child(2)::after {
+    content: "(for more CSS manipulations)";
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+}
+
+.list .list-item:nth-child(3)::after {
+    content: "(because they are awesome)";
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+}
+
+.list .list-item:nth-child(4)::after {
+    content: "(hm... they always dissapear)";
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+}
+
+.list .list-item:last-child::after {
+    content: "(for my friends)";
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+}
+
+.checkedbox:checked + .lab {
+    text-decoration: line-through;
+}
+
+.list-item .checkedbox:checked {
+    background-color: #fff;
+}
+
+.first {
+    background-color: #9c9c9c;
+    color: #4a4f56;
+}
+
+.list .first:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
+}
+
+.list .first::after {
+    content: "(for the next lessons about CSS)";
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+    color: #4a4f56;
+    text-decoration: line-through;
+}
+
+.second {
+    background-color: #9c9c9c;
+    color: #4a4f56;
+}
+
+.list .second:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
+}
+
+.list .second::after {
+    content: "(for more CSS manipulations)";
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+    color: #4a4f56;
+    text-decoration: line-through;
+}
+
+.third {
+    background-color: #9c9c9c;
+    color: #4a4f56;
+}
+
+.list .third:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
+}
+
+.list .third::after {
+    content: "(because they are awesome)";
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+    color: #4a4f56;
+    text-decoration: line-through;
+}
+
+.fourth {
+    background-color: #9c9c9c;
+    color: #4a4f56;
+}
+
+.list .fourth:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
+}
+
+.list .fourth::after {
+    content: "(hm... they always dissapear)";
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+    color: #4a4f56;
+    text-decoration: line-through;
+}
+
+.fifth {
+    background-color: #9c9c9c;
+    color: #4a4f56;
+}
+
+.list .fifth:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
+}
+
+.sixth {
+    background-color: #9c9c9c;
+    color: #4a4f56;
+}
+
+.list .sixth:hover {
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    color: #4a4f56;
+}
+
+.list .sixth::after {
+    content: "(for my friends)";
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 21px;
+    margin-left: 1.5%;
+    color: #4a4f56;
+    text-decoration: line-through;
+}
+
+footer {
+    background: #4a4f56;
+    min-height: 100px;
+    padding: 0;
+    box-sizing: content-box;
+    margin: 0 27%;
+}
+
+.nen {
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
