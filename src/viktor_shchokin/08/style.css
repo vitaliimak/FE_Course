@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    height: 100vh;
+    background-color: #3B3F45;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
@@ -33,8 +35,6 @@ input {
 
 .main {
     padding-top: 50px;
-    background-color: #3B3F45;
-    height: 100vh;
 }
 
 .form {
